@@ -1,0 +1,45 @@
+.topNav {
+    display: block;
+}
+
+.topNav-left {
+    float: left;
+}
+
+.topNav-rightContainer {
+    float: right;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.header-banner {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.header-banner-h1 {
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 10px;
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.blog-container > * {
+    display: flex;
+    text-align: left;
+    max-width: 680px;
+}
+
